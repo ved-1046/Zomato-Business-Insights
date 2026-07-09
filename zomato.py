@@ -7,6 +7,7 @@ import seaborn as sns
 
 
 df = pd.read_csv('Zomato.csv')
+
 print(df.columns)
 print(df.info())
 print(df.describe())
