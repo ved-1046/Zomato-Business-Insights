@@ -4,22 +4,22 @@ An interactive Business Intelligence dashboard built using **Python, Streamlit, 
 
 ## About the Project
 
-The goal of this project was to transform restaurant data into an interactive dashboard where users can analyze trends, compare restaurant performance, and explore business insights using dynamic filters and charts.
+This project transforms raw restaurant data into an interactive dashboard where users can analyze restaurant trends, compare performance, and explore business insights using dynamic filters and charts.
 
-## Dashboard Features
+## Features
 
-- 📊 Interactive KPI Cards
-- 📍 Filter restaurants by Area
-- 🍽️ Filter by Restaurant Type
-- ⭐ Filter by Minimum Rating
-- 🔍 Search restaurants by name
-- 📈 Restaurant Type Distribution
-- 📍 Area-wise Restaurant Distribution
-- 🍜 Top 10 Highest Rated Cuisines
-- 🥧 Restaurant Type Share (Pie Chart)
-- 📊 Rating Distribution (Histogram)
-- 💰 Rating vs Cost Analysis (Scatter Plot)
-- 📥 Download filtered data as CSV
+- Interactive KPI cards
+- Filter restaurants by area
+- Filter by restaurant type
+- Filter by minimum rating
+- Search restaurants by name
+- Restaurant type distribution
+- Area-wise restaurant distribution
+- Top 10 highest-rated cuisines
+- Restaurant type share (Pie Chart)
+- Rating distribution (Histogram)
+- Rating vs Cost analysis (Scatter Plot)
+- Download filtered data as CSV
 
 ## Technologies Used
 
@@ -39,7 +39,7 @@ The goal of this project was to transform restaurant data into an interactive da
 - Interactive Dashboard Development
 - Data Visualization
 - Business Intelligence
-- Data Filtering & Search
+- Data Filtering
 - Git & GitHub
 
 ## Project Structure
@@ -62,15 +62,9 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## Future Improvements
-
-- SQL Integration
-- Machine Learning-based Restaurant Rating Prediction
-- Interactive Maps
-- Deployment on Streamlit Community Cloud
-
 ## Author
 
 **Vedika Tamshetti**
 
+GitHub: https://github.com/ved-1046
 GitHub: https://github.com/ved-1046
