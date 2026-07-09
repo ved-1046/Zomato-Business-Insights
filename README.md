@@ -1,46 +1,56 @@
-# 🍽️ Zomato Business Insights
+# 🍽️ Zomato Restaurant Business Insights Dashboard
 
-A data analysis project that explores how different factors such as cuisine, pricing, online ordering, table booking, and location relate to restaurant ratings on Zomato.
+An interactive Business Intelligence dashboard built using **Python, Streamlit, Pandas, and Plotly** to explore restaurant data and generate meaningful business insights through interactive visualizations.
 
 ## About the Project
 
-The goal of this project was to analyze restaurant data from a business perspective rather than simply explore the dataset. Each analysis begins with a business question, followed by data exploration, visualization, and key insights.
+The goal of this project was to transform restaurant data into an interactive dashboard where users can analyze trends, compare restaurant performance, and explore business insights using dynamic filters and charts.
 
-## Questions Explored
+## Dashboard Features
 
-* Which cuisines receive the highest ratings?
-* Does online ordering influence customer ratings?
-* Does table booking improve ratings?
-* How does pricing relate to customer ratings?
-* Does online ordering benefit every restaurant type equally?
-* Can restaurant ratings be trusted based only on review scores?
-* Which areas consistently have highly rated restaurants?
+- 📊 Interactive KPI Cards
+- 📍 Filter restaurants by Area
+- 🍽️ Filter by Restaurant Type
+- ⭐ Filter by Minimum Rating
+- 🔍 Search restaurants by name
+- 📈 Restaurant Type Distribution
+- 📍 Area-wise Restaurant Distribution
+- 🍜 Top 10 Highest Rated Cuisines
+- 🥧 Restaurant Type Share (Pie Chart)
+- 📊 Rating Distribution (Histogram)
+- 💰 Rating vs Cost Analysis (Scatter Plot)
+- 📥 Download filtered data as CSV
 
-## Tools Used
+## Technologies Used
 
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Streamlit
+- Plotly Express
+- Git & GitHub
 
-## Project Highlights
+## Skills Demonstrated
 
-* Performed data exploration and quality checks
-* Used `groupby()`, `agg()`, and `pivot_table()` for analysis
-* Applied feature engineering using `pd.cut()`
-* Built multiple visualizations to answer business questions
-* Added business insights after every analysis
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Interactive Dashboard Development
+- Data Visualization
+- Business Intelligence
+- Data Filtering & Search
+- Git & GitHub
 
 ## Project Structure
 
 ```text
 Zomato-Business-Insights/
-├── images/
+├── app.py
 ├── Zomato.csv
-├── zomato.py
 ├── requirements.txt
-└── README.md
+├── README.md
+└── .gitignore
 ```
 
 ## How to Run
@@ -49,11 +59,18 @@ Zomato-Business-Insights/
 git clone https://github.com/ved-1046/Zomato-Business-Insights.git
 cd Zomato-Business-Insights
 pip install -r requirements.txt
-python zomato.py
+streamlit run app.py
 ```
+
+## Future Improvements
+
+- SQL Integration
+- Machine Learning-based Restaurant Rating Prediction
+- Interactive Maps
+- Deployment on Streamlit Community Cloud
 
 ## Author
 
 **Vedika Tamshetti**
 
-* GitHub: https://github.com/ved-1046
+GitHub: https://github.com/ved-1046
